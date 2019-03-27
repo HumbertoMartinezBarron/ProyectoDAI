@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:paddingTop="2dp" >
+
+
+    <Button
+        android:id="@+id/btnUni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="abre"
+        android:text="Universidad" />
+
+    <Button
+        android:id="@+id/btnCarrera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnAlum"
+        android:layout_below="@+id/btnUni"
+        android:onClick="abre"
+        android:text="Carrera" />
+
+    <Button
+        android:id="@+id/btnAlum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCarrera"
+        android:layout_centerHorizontal="true"
+        android:onClick="abre"
+        android:text="Alumno" />
+
+    <Button
+        android:id="@+id/btnEstadísticas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAlum"
+        android:layout_centerHorizontal="true"
+        android:onClick="abre"
+        android:text="Estadísticas" />
+</RelativeLayout>
